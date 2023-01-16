@@ -13,7 +13,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/" element={<DashBoard />} />
           <Route path="/createads" element={<CreateAds />} />
           <Route path="/text-ad" element={<TextForm />} />
           <Route path="/media-ad" element={<MediaForm />} />

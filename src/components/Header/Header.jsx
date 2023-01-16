@@ -48,10 +48,7 @@ const Header = () => {
               setMenuOpen(false);
             }}
           >
-            <NavLink
-              to="/dashboard"
-              className={`text-[14px] font-medium py-1 hover`}
-            >
+            <NavLink to="/" className={`text-[14px] font-medium py-1 hover`}>
               DASHBOARD
             </NavLink>
           </li>
